@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+/* Pads the top so that nav bar doesn't cover any content */
+body { 
+    padding-top: 50px; 
+    font-family: Ubuntu;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+
+
+/* The navigation bar */
+ /* Set the navbar to fixed position in POSITION */
+ /* Position the navbar at the top of the page in TOP */
+ /* Full width */
+.topnav {
+    overflow: hidden;
+    display:flex;
+    background-color: #FFC93C;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    border-style: solid;
+    border-color: #155263;
+    border-radius: 5px;
+    width:auto;
+  }
+
+
+.topnav a {
+    padding: 20px;
+    color: #155263;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: #FF6F3C;
+}
+
+
+
+
+
+
+.section {
+    text-align: center;
+}
+
+#Mewtwo{
+    text-align: left;
+}
+
+summary{
+    color: #FF9A3C;
+}
+
+
+
+
+
+p, li{
+    color:#155263;
+    text-align: justify;
+}
+
+.pyproj{
+    color: #FF9A3C;
+    display: flex;
+}
+
+h2{
+    color:#FF6F3C;
+}
+
+/* .quotesection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+/* .images{
+    display: flex;
+    flex-direction: column;
+} */
