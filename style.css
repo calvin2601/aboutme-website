@@ -29,6 +29,7 @@ body {
     border-color: #155263;
     border-radius: 5px;
     width:auto;
+    transition: top 0.3s;
   }
 
 
